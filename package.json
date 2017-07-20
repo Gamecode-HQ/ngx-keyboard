@@ -1,0 +1,95 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "git+https://github.com/ngx-material-keyboard/core.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "git+https://github.com/ngx-material-keyboard/core.git",
+        "spec": "git+https://github.com/ngx-material-keyboard/core.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:ngx-material-keyboard/core.git",
+          "sshUrl": "git+ssh://git@github.com/ngx-material-keyboard/core.git",
+          "httpsUrl": "git+https://github.com/ngx-material-keyboard/core.git",
+          "gitUrl": "git://github.com/ngx-material-keyboard/core.git",
+          "shortcut": "github:ngx-material-keyboard/core",
+          "directUrl": "https://raw.githubusercontent.com/ngx-material-keyboard/core/master/package.json"
+        }
+      },
+      "/Users/waldi/Projects/gameCode/menu"
+    ]
+  ],
+  "_from": "git+https://github.com/ngx-material-keyboard/core.git",
+  "_id": "ngx-material-keyboard@0.0.1-SNAPSHOT",
+  "_inCache": true,
+  "_location": "/ngx-material-keyboard",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "git+https://github.com/ngx-material-keyboard/core.git",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "git+https://github.com/ngx-material-keyboard/core.git",
+    "spec": "git+https://github.com/ngx-material-keyboard/core.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:ngx-material-keyboard/core.git",
+      "sshUrl": "git+ssh://git@github.com/ngx-material-keyboard/core.git",
+      "httpsUrl": "git+https://github.com/ngx-material-keyboard/core.git",
+      "gitUrl": "git://github.com/ngx-material-keyboard/core.git",
+      "shortcut": "github:ngx-material-keyboard/core",
+      "directUrl": "https://raw.githubusercontent.com/ngx-material-keyboard/core/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/ngx-material-keyboard/core.git#6c51e30b7d7633d111a33909830405304d5c7bdb",
+  "_shasum": "46ae942b54fcea79303f5ab5b47253ee163c2178",
+  "_shrinkwrap": null,
+  "_spec": "git+https://github.com/ngx-material-keyboard/core.git",
+  "_where": "/Users/waldi/Projects/gameCode/menu",
+  "author": {
+    "name": "David Enke",
+    "email": "post@davidenke.de"
+  },
+  "bugs": {
+    "url": "https://github.com/ngx-material-keyboard/core/issues"
+  },
+  "dependencies": {},
+  "description": "Onscreen virtual keyboard for Angular ≥ 2 (https://angular.io/) using Material 2 (https://material.angular.io/).",
+  "devDependencies": {
+    "@compodoc/compodoc": "^1.0.0-beta.10"
+  },
+  "gitHead": "6c51e30b7d7633d111a33909830405304d5c7bdb",
+  "homepage": "https://github.com/ngx-material-keyboard/core#readme",
+  "license": "MIT",
+  "main": "index.ts",
+  "name": "ngx-material-keyboard",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@angular/animations": "^4.0.0",
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/material": "2.0.0-beta.5",
+    "material2-srcs": "git+https://github.com/angular/material2.git#2.0.0-beta.5",
+    "rxjs": "^5.1.0"
+  },
+  "readme": "[![Build Status](https://travis-ci.org/ngx-material-keyboard/core.svg?branch=master)](https://travis-ci.org/ngx-material-keyboard/core)\n\n# ngx-material-keyboard\nOnscreen virtual keyboard for [Angular](https://angular.io/) using [Material 2](https://material.angular.io/).\n\n## Demo\nA demo can be found [here](https://ngx-material-keyboard.github.io/demo/).\n\n## Docs\nGenerated documentation can be found [here](https://ngx-material-keyboard.github.io/core/).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngx-material-keyboard/core.git"
+  },
+  "scripts": {
+    "build:docs": "compodoc -p ./tsconfig.json -d docs --disableCoverage --disablePrivateOrInternalSupport",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1-SNAPSHOT"
+}
