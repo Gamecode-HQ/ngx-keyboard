@@ -1,10 +1,11 @@
-import { animate, AnimationEvent, state, style, transition, trigger } from '@angular/animations';
+import { animate, state, style, transition, trigger } from '@angular/animations';
 import { Component, ComponentRef, HostBinding, HostListener, Input, NgZone, OnDestroy, ViewChild } from '@angular/core';
 import { BasePortalHost, ComponentPortal, PortalHostDirective, TemplatePortal } from '@angular/material';
 import { Observable } from 'rxjs/Observable';
 import { Subject } from 'rxjs/Subject';
 import { MdKeyboardConfig } from '../configs/keyboard.config';
 import { MdKeyboardContentAlreadyAttached } from '../classes/keyboard-errors.class';
+import 'rxjs/add/operator/first';
 
 export type KeyboardState = 'initial' | 'visible' | 'complete' | 'void';
 
@@ -74,7 +75,7 @@ export class MdKeyboardContainerComponent extends BasePortalHost implements OnDe
 
   /** Handle end of animations, updating the state of the keyboard. */
   @HostListener('@state.done', ['$event'])
-  onAnimationEnd(event: AnimationEvent) {
+  onAnimationEnd(event) {
     if (event.toState === 'void' || event.toState === 'complete') {
       this._completeExit();
     }
